@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h1{
+    margin-left: 24%;
+    text-decoration: dotted;
+    color: rgb(255, 0, 179);
+    size: 60px;
+}
+h3{
+    margin-left: 40.5%;
+    text-decoration: dotted;
+    color: rgb(255, 0, 179);
+}
+#clear{
+    clear: both;
+}
+/*fotos*/
+.ft-eu{
+    float: left;
+    margin-left: 34%;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#img-rede{
+    width: 30px;
+    height: 30px;
+}
+.rede-contato{
+    float: left;
+    margin-left: 43.5%;
+}

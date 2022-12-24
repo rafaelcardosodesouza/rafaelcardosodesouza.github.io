@@ -6,7 +6,8 @@
 body{
     background-color: black;
 }
-h2{
+
+h1, h2{
     margin-left: 24%;
     text-decoration: dotted;
     color: rgb(255, 0, 179);

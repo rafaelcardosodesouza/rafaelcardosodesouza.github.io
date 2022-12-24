@@ -1,66 +1,67 @@
-/*Global*/
+/*config global*/
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-    background: #000;
-}
-span{
-    color: crimson;
-}
-#corpo{
-    float: right;
-    width: auto;
-    margin-right: 20%;
-    border: 1px solid yellow;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    padding: 40px;
-
-}
-/*estilo*/
-
-h1, h2, h3{
-    color: rgb(241, 24, 230);
-}
-h2{
-    text-align: center;
-}
-h1{
-    text-align: center;
-}
-.p_principal{
-    color: #FFF
-}
-.p_eu{
-    margin: 10px auto;
-    border: 1px solid red;
-    width: 750px;
-    flex: auto;
-    
+    background-color: #23252f;
+    color: azure;
 }
 
-/*midias*/
-.midias{
-    width: 110px;
-    height: 110px;
-    float: left;
-    border: 1px solid green;
-    display: block;
-    margin-right: auto;
-    flex-direction:row ;
-    justify-content: flex-end;
+/*skill table*/
+.tb_skil{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    margin: 20px;
+}
+.tb_skil td{
+    border-color:black;
+    border-style: solid;
+    border-width: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    line-height: 40px;
 
 
 }
-.midias img{
-    width: 25px;
-    height: 25px;
-    flex-direction:row;
-    justify-content: center;
+.tb_skil th{
+    border-color:black;
+    margin: 2px;
+    border-style: solid;
+    border-width: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
 }
-#ft_eu{
-    float: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    border: 1px solid red;
+.tb_skil .tb_linha{
+    text-align:left;
+    vertical-align:top;
+    border-radius: 10px;
 }
+.n_html{
+    padding: 20px 120px;
+    background-image: linear-gradient(to right, black 70%, white 30%);
+    border-radius: 10px;
+}
+.n_css{
+    padding: 20px 120px;
+    background-image: linear-gradient(to right, black 40%, white 60%);
+    border-radius: 10px;}
+.n_js{
+    padding: 20px 120px;
+    background-image: linear-gradient(to right, black 0%, white 100%);
+    border-radius: 10px;}
+.n_github{
+    padding: 20px 120px;
+    background-image: linear-gradient(to right, black 70%, white 30%);
+    border-radius: 10px;}
+.n_git{
+    padding: 20px 120px;
+    background-image: linear-gradient(to right, black 80%, white 20%);
+    border-radius: 10px;}

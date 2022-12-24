@@ -7,8 +7,10 @@ body{
     background-color: black;
 }
 
+h1{
+    font-size: 1.8em;
+}
 h1, h2{
-    margin-left: 24%;
     text-decoration: dotted;
     color: rgb(255, 0, 179);
     size: 60px;

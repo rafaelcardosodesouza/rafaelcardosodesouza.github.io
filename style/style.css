@@ -11,11 +11,17 @@ h2{
     text-decoration: dotted;
     color: rgb(255, 0, 179);
     size: 60px;
+    text-align: center;
 }
 h3{
     margin-left: 40.5%;
     text-decoration: dotted;
     color: rgb(255, 0, 179);
+    text-align: center;
+}
+#apresentacao h2, h3{
+    color: red;
+    margin-top: auto;
 }
 #clear{
     clear: both;
@@ -40,12 +46,20 @@ img{
 } 
 
 /*conteudo*/
-.parincipal{
+#apresentacao{
+    clear: both;
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+
+}
+.paprincipal{
     clear: both;
     color: #FFF;
     font-size: 1.1em;
-    width: 70%;
     display: flex;
     justify-content: center;
     margin: 10px auto;
+    border: 1px solid red;
+    text-align: center;
 }

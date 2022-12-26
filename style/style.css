@@ -2,13 +2,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
-.aviso{
-    color: red;
-    font-size: 60px;
-}
+
 body{
-    background-color: #23252f;
+    background-color: #414141;
     color: azure;
     margin: 10px auto;
 }
@@ -29,7 +27,7 @@ h3{
 #eu_apresentacao{
     width: auto;
     height: auto;
-    margin-bottom: 130px;
+    margin-bottom: 4vw;
     clear: both;
 }
 #eu_apresentacao h1{
@@ -46,26 +44,29 @@ h3{
 }
 /*habilidades*/
 #habilidades{
-    padding: auto;
+    background-color: #313131be;
+    width: 100vw;
+    font-size: 1.2em;
     display: flex;
-    width: 100%;
-    height: 350%;
-    text-align: center;
-    background-color: black;
-    border: 1px solid #23252f;
-    border-radius: 10px;
-    
+    margin: 0px 1px;
+    align-content: center;
+    flex-direction: row; /*direção da esquerda para direita*/
 }
 #habilidades p, h3{
-    
+    padding: 10px;
+}
+#habilidades p{
+    text-align: justify;
 }
 #habilidades h3{
    margin: 1px;
+   font-size: 1.7em;
+   color: rgb(255, 17, 215);
 
 }
 .gif{
     width: 35%;
-    height: 100%;
+    height: 400px;
 }
 /*contato*/
 #contato{

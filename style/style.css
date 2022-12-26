@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+.aviso{
+    color: red;
+    font-size: 60px;
+}
 body{
     background-color: #23252f;
     color: azure;

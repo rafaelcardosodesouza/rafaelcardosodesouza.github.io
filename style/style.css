@@ -24,6 +24,7 @@ h3{
 /*apresentacao*/
 #eu_apresentacao{
     width: auto;
+    height: auto;
     margin-bottom: 130px;
     clear: both;
 }
@@ -41,27 +42,28 @@ h3{
 }
 /*habilidades*/
 #habilidades{
-    display: block;
     padding: auto;
+    display: flex;
     width: 100%;
+    height: 350%;
     text-align: center;
     background-color: black;
+    border: 1px solid #23252f;
+    border-radius: 10px;
     
 }
 #habilidades p, h3{
-    width: 300px;
+    
 }
 #habilidades h3{
-    text-align: center;
-    display: block;
+   margin: 1px;
+
 }
 .gif{
-    margin-top: -50%;
-	float: right;
-    justify-content: right;
-    
+    width: 35%;
+    height: 100%;
 }
 /*contato*/
 #contato{
-
+    clear: both;
 }

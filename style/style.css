@@ -48,12 +48,14 @@ h3{
     width: 100vw;
     font-size: 1.2em;
     display: flex;
-    margin: 0px 1px;
     align-content: center;
     flex-direction: row; /*direção da esquerda para direita*/
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 #habilidades p, h3{
     padding: 10px;
+    width: 20vw;
 }
 #habilidades p{
     text-align: justify;

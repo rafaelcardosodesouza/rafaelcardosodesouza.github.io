@@ -8,16 +8,16 @@
 body{
     background-color: #414141;
     color: azure;
-    margin: 10px auto;
+    ;
 }
 #corpo{
     
     
 }
-h1, h2, h3{
+/*h1, h2, h3{
     text-align: center;
     padding: 20px;
-}
+}*/
 
 /*skill*/
 h3{
@@ -25,22 +25,34 @@ h3{
 }
 /*apresentacao*/
 #eu_apresentacao{
-    width: auto;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+    width: 90vw;
     height: auto;
-    margin-bottom: 4vw;
-    clear: both;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;    
+
 }
+
 #eu_apresentacao h1{
     color: yellow;
-    font-size: 65px;
+    font-size: 10vh;
+    
+
 }
 #eu_apresentacao h2{
     color: rgb(52, 235, 28);
-    font-size: 32.5px;
+    font-size: 5vh;
+    
+
 }
 #eu_apresentacao h3{
-    color: rgb(52, 235, 28);
-    font-size: 28.5px;
+    
 }
 /*habilidades*/
 #habilidades{
@@ -52,25 +64,61 @@ h3{
     flex-direction: row; /*direção da esquerda para direita*/
     flex-wrap: wrap;
     justify-content: space-around;
+    
+
 }
 #habilidades p, h3{
     padding: 10px;
     width: 20vw;
+    
+
 }
 #habilidades p{
+    
+
     text-align: justify;
 }
 #habilidades h3{
    margin: 1px;
    font-size: 1.7em;
+   text-align: center;
    color: rgb(255, 17, 215);
+   
+
 
 }
 .gif{
     width: 35%;
     height: 400px;
+    
+
 }
 /*contato*/
 #contato{
     clear: both;
+    
+
+}
+
+/*sobre*/
+#sobre{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:  12vh 0;
+    width: 90vw;
+    height: auto;
+}
+#sobre h3{
+    
+    margin: 1vh;
+    width: 10vw; 
+    font-size: 4vh;
+}
+#sobre p{
+    margin-top: 2vh;
+    text-align: center;    
+
 }

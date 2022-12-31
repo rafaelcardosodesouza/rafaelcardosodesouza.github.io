@@ -8,17 +8,8 @@
 body{
     background-color: #414141;
     color: azure;
-    ;
+    width: 99vw;
 }
-#corpo{
-    
-    
-}
-/*h1, h2, h3{
-    text-align: center;
-    padding: 20px;
-}*/
-
 /*skill*/
 h3{
     color: palevioletred;
@@ -31,23 +22,24 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
     padding: 1vw;
-    width: 90vw;
+    width: 99vw;
     height: auto;
-    position: relative;
     box-sizing: border-box;
-    text-align: center;    
 
 }
 
 #eu_apresentacao h1{
     color: yellow;
     font-size: 10vh;
+    text-align: center;
     
 
 }
 #eu_apresentacao h2{
     color: rgb(52, 235, 28);
     font-size: 5vh;
+    text-align: center;
+
     
 
 }
@@ -108,17 +100,54 @@ h3{
     flex-direction: column;
     justify-content: center;
     margin:  12vh 0;
-    width: 90vw;
+    width: 45vw;
+    
     height: auto;
 }
 #sobre h3{
     
     margin: 1vh;
-    width: 10vw; 
+    width: 20vw; 
     font-size: 4vh;
+    margin: 0 auto;
 }
 #sobre p{
     margin-top: 2vh;
-    text-align: center;    
+    text-align: center; 
+    font-size: 3vh;   
 
+}
+/*menu*/
+.nome_animado {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Special Elite", monospace;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .nome_animado {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 10s steps(40) 1s normal both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 16em;
+    }
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
 }
